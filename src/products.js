@@ -1,0 +1,108 @@
+const products = [
+  {
+    _id: "1",
+    name: "Product 1",
+    image: "/images/cake1.webp",
+    description:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    brand: "Burberry",
+    category: "Pineapple Cake",
+    price: 12000,
+    countInStock: 22,
+    rating: 2.6,
+    numReviews: 4,
+  },
+  {
+    _id: "2",
+    name: "Product 2",
+    image: "/images/cake2.webp",
+    description:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    brand: "Urban Outfitters",
+    category: "Slice Cake",
+    price: 8500,
+    countInStock: 42,
+    rating: 4.4,
+    numReviews: 2,
+  },
+  {
+    _id: "3",
+    name: "Product 3",
+    image: "/images/cake3.jpeg",
+    description:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    brand: "Ralph Lauren",
+    category: "Strawberry Cake",
+    price: 6000,
+    countInStock: 18,
+    rating: 4.5,
+    numReviews: 2,
+  },
+  {
+    _id: "4",
+    name: "Product 4",
+    image: "/images/cake4.jpeg",
+    description:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    brand: "Gucci",
+    category: "Choclate Slice",
+    price: 21000,
+    countInStock: 8,
+    rating: 4.8,
+    numReviews: 12,
+  },
+  {
+    _id: "5",
+    name: "Product 5",
+    image: "/images/cake5.jpeg",
+    description:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    brand: "Chanel",
+    category: "Black Forest",
+    price: 43000,
+    countInStock: 6,
+    rating: 4.9,
+    numReviews: 8,
+  },
+  {
+    _id: "6",
+    name: "Product 6",
+    image: "/images/cake6.webp",
+    description:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    brand: "Tom Ford",
+    category: "Cup Cakes",
+    price: 16000,
+    countInStock: 21,
+    rating: 4.1,
+    numReviews: 3,
+  },
+  {
+    _id: "7",
+    name: "Product 7",
+    image: "/images/cake7.jpeg",
+    description:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    brand: "Calvin Klein",
+    category: "Dark Chocolate",
+    price: 7500,
+    countInStock: 25,
+    rating: 3.4,
+    numReviews: 3,
+  },
+  {
+    _id: "8",
+    name: "Product 8",
+    image: "/images/cake8.jpeg",
+    description:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    brand: "Chanel",
+    category: "Creamy Cake",
+    price: 9500,
+    countInStock: 0,
+    rating: 4.2,
+    numReviews: 5,
+  },
+];
+
+export default products;
